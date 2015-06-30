@@ -1,7 +1,7 @@
 package elevator_1316;
 
 public class elevator extends door implements floor{
-	int numberOfFloors;
+	int numberOfFloors,floorChoice;
 	
 
 void moveUp(){
@@ -17,6 +17,7 @@ public void changeFloor() {
 }
 @Override
 public void enterFloor() {
-	// TODO Auto-generated method stub	
+	// TODO Auto-generated method stub
+	System.out.println("Enter the floor of you want to go");
 }
 }
