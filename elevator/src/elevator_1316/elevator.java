@@ -13,7 +13,10 @@ void moveDown(){
 
 @Override
 public void changeFloor() {
-	// TODO Auto-generated method stub	
+	// TODO Auto-generated method stub
+	if(floorChoice<=numberOfFloors && floorChoice>=-1){
+		System.out.println("You are moving in the elevator");
+	}
 }
 @Override
 public void enterFloor() {
